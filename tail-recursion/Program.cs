@@ -20,7 +20,7 @@ namespace tail_recursion
             // The huge benefit of using tail calls is that since they're the LAST action within the method, the stack can reuse it
             // for the next recursive call (i.e. you don't have the overhead of preserving any state)
 
-            // C# does NOT support tail call optimization however there's a well known workaround called "Trampolining"
+            // C# added support for tail-call optimization in .NET 4.0 x64 runtime.
 
         }
 
